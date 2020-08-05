@@ -121,27 +121,6 @@ print('''
 
 
 	''')
-print('what Linux distribution are you using?')
-linux = input("> ")
-if linux == 'ubuntu':
-	os.system('sudo apt install tor')
-elif linux == 'Ubuntu': 
-	os.system('sudo apt install tor')
-elif linux == 'Debian': 
-	print('visnce')
-elif linux == 'Kali Linux':
-	os.system('apt install tor')
-elif linux == 'kali linux': 
-	os.system('apt install tor')
-elif linux == 'Kali': 
-	os.system('apt install tor')
-elif linux == 'kali': 
-	os.system('apt install tor')
-elif linux == 'termux':
-	os.system('apt install tor')
-elif linux == 'Termux': 
-	os.system('apt install tor')
-else: 
 	os.system('apt install tor')
 
 os.system('tor')
